@@ -1,10 +1,25 @@
 @font-face {
 	font-family: "kingThings";
-	src: url("kingThings.ttf");
+	src: url("../fonts/kingThings.ttf");
+}
+
+@font-face {
+	font-family: "loveCha";
+	src: url("../fonts/loveCha.ttf");
+}
+
+@font-face {
+	font-family: "p5Hatty";
+	src: url("../fonts/p5Hatty.ttf");
+}
+
+@font-face {
+	font-family: "valentineStyle";
+	src: url("../fonts/valentineStyle.ttf");
 }
 
 h1 {
-	font-family: "kingThings", Impact;
+	font-family: "valentineStyle", Impact;
 	font-size: 40px;
 }
 
