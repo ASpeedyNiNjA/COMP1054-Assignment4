@@ -13,32 +13,36 @@
 </head>
 <body>
 	<header>
-		<h1>The Crown</h1>
-		<ul>
-			<li><a href="index.php">Home</a></li>
-		<?php
-			if (session_status() == PHP_SESSION_NONE) {
-				session_start();
-			}
-			if (!empty($_SESSION['username'])) {
-				echo '<li><a href="crown.php">Crown</a></li>';
-			}
-		?>
-		<li><a href="the-deed.php">The Deed</a></li>
-		<?php
-			if (!empty($_SESSION['username'])) {
-				echo '
-				<li><a href="participants.php">Participants</a></li>
-				<li><a href="categories.php">Categories</a></li>
-				<li><a href="logout.php">Logout</a></li>
-				<li><a href="#">' . $_SESSION['username'] .  '</a></li>';
-
-			} else {
-				echo '
-			<li><a href="register.php">Register</a></li>
-			<li><a href="login.php">Login</a></li>';
-			}
-			echo '</ul>';
-		?>
+		<img src="images/heart.png" alt="A poorly drawn pixel heart" />
+		<h1>Ministry Of Love</h1>
+		<img src="images/user-image.png" alt="A 100x100 circle user profile image placeholder" /> 
 	</header>
+	<nav>
+		<ul>
+				<li><a href="index.php">Home</a></li>
+			<?php
+				if (session_status() == PHP_SESSION_NONE) {
+					session_start();
+				}
+				if (!empty($_SESSION['username'])) {
+					echo '<li><a href="crown.php">Crown</a></li>';
+				}
+			?>
+			<li><a href="the-deed.php">The Deed</a></li>
+			<?php
+				if (!empty($_SESSION['username'])) {
+					echo '
+					<li><a href="participants.php">Participants</a></li>
+					<li><a href="categories.php">Categories</a></li>
+					<li><a href="logout.php">Logout</a></li>
+					<li><a href="#">' . $_SESSION['username'] .  '</a></li>';
+
+				} else {
+					echo '
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>';
+				}
+				echo '</ul>';
+			?>
+	</nav>
 

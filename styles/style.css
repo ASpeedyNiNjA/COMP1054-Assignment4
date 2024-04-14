@@ -18,10 +18,12 @@
 	src: url("../fonts/valentineStyle.ttf");
 }
 
-h1 {
-	font-family: "valentineStyle", Impact;
-	font-size: 40px;
+@font-face {
+	font-family: "arcadeClassic";
+	src: url("../fonts/arcadeClassic.TTF");
 }
+
+
 
 table {
 	border: 1px solid;
@@ -36,12 +38,37 @@ td {
 }
 
 header {
-	background-color: #00A676;
+	background-color: #F25D5D;
 	list-style-type: none;
-	display: flex;
+	display: grid;
+	grid-template-columns: 125px 1fr 130px;
+	grid-template-rows: 135px;
+	gap:5px;
+	
+}
+
+h1 {
+	font-family: "valentineStyle", Impact;
+	font-size: 72px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+nav {
+	display: grid;
+	grid-template-rows: 100px 100px 100px 100px;
+	background-color: #00A676;
+}
+
+li {
+	display: inline-flex;
 }
 
 footer {
 	background-color: #00A676;
 	height: 100px;
+}
+
+img[src="images/user-image.png"] {
+	margin-top: 3px;
 }
