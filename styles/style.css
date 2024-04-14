@@ -55,6 +55,11 @@ h1 {
 	
 }
 
+h2 {
+	font-family: "loveCha";
+	font-weight: normal;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -100,8 +105,26 @@ a:active {
 
 
 footer {
-	background-color: #00A676;
-	height: 100px;
+	background-color: black;
+	color: white;
+	/* height: 100px; */
+	font-family: 'arcadeClassic';
+	display: grid;
+	grid-template-areas: 
+		"language copyright company";
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#language {
+	grid-area: language;
+}
+
+#copyright {
+	grid-area: copyright;
+}
+
+#company {
+	grid-area: company;
 }
 
 img[src="images/user-image.png"] {
