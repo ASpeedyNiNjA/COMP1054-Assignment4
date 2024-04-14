@@ -55,14 +55,21 @@ h1 {
 }
 
 nav {
-	display: grid;
-	grid-template-rows: 100px 100px 100px 100px;
+	/* display: grid;
+	grid-template-columns: repeat(auto, 1fr); */
 	background-color: #00A676;
 }
 
-li {
-	display: inline-flex;
+#nav {
+	display: flex;
+	justify-content: space-between;
 }
+
+li {
+	list-style-type: none;
+}
+
+
 
 footer {
 	background-color: #00A676;
