@@ -44,7 +44,7 @@ header {
 	grid-template-columns: 125px 1fr 130px;
 	grid-template-rows: 135px;
 	gap:5px;
-	
+	border-bottom: 4px solid white;
 }
 
 h1 {
@@ -52,24 +52,31 @@ h1 {
 	font-size: 72px;
 	margin: 0px;
 	font-weight: normal;
+	
 }
 
 nav {
 	/* display: grid;
 	grid-template-columns: repeat(auto, 1fr); */
-	background-color: #00A676;
+	background-color: #F25D5D;
+	/* border-top: 4px solid white; */
 }
 
-#nav {
+nav > ul {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 0;
 }
 
-li {
+nav > ul > li {
+	font-family: "valentineStyle", Impact;
+	font-size: 36px;
 	list-style-type: none;
+	border-right: 4px solid white;
+	/* border: 4px solid white; */
+	padding-right: 54px;
 }
-
-
 
 footer {
 	background-color: #00A676;

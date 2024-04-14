@@ -18,7 +18,7 @@
 		<img src="images/user-image.png" alt="A 100x100 circle user profile image placeholder" /> 
 	</header>
 	<nav>
-		<ul id="nav">
+		<ul>
 				<li><a href="index.php">Home</a></li>
 			<?php
 				if (session_status() == PHP_SESSION_NONE) {
