@@ -70,6 +70,33 @@ nav > a {
 	background-color: #F25D5D;
 }
 
+a {
+	outline-color: transparent;
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:focus {
+	background-color: #7B5DF2;
+}
+
+a:hover {
+	background-color: #7B5DF2;
+}
+
+a:active {
+	color: white;
+	background-color: #dd191d;
+}
+
+
 
 
 footer {
