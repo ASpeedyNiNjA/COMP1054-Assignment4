@@ -18,31 +18,29 @@
 		<img src="images/user-image.png" alt="A 100x100 circle user profile image placeholder" /> 
 	</header>
 	<nav>
-		<ul>
-				<li><a href="index.php">Home</a></li>
+			<a href="index.php">Home</a>
 			<?php
 				if (session_status() == PHP_SESSION_NONE) {
 					session_start();
 				}
 				if (!empty($_SESSION['username'])) {
-					echo '<li><a href="crown.php">Crown</a></li>';
+					echo '<a href="crown.php">Crown</a>';
 				}
 			?>
-			<li><a href="the-deed.php">The Deed</a></li>
+			<a href="the-deed.php">The Deed</a>
 			<?php
 				if (!empty($_SESSION['username'])) {
 					echo '
-					<li><a href="participants.php">Participants</a></li>
-					<li><a href="categories.php">Categories</a></li>
-					<li><a href="logout.php">Logout</a></li>
-					<li><a href="#">' . $_SESSION['username'] .  '</a></li>';
+					<a href="participants.php">Participants</a>
+					<a href="categories.php">Categories</a>
+					<a href="logout.php">Logout</a>
+					<a href="#">' . $_SESSION['username'] .  '</a>';
 
 				} else {
 					echo '
-				<li><a href="register.php">Register</a></li>
-				<li><a href="login.php">Login</a></li>';
+				<a href="register.php">Register</a>
+				<a href="login.php">Login</a>';
 				}
-				echo '</ul>';
 			?>
 	</nav>
 

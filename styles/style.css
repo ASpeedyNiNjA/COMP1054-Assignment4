@@ -56,27 +56,21 @@ h1 {
 }
 
 nav {
-	/* display: grid;
-	grid-template-columns: repeat(auto, 1fr); */
-	background-color: #F25D5D;
-	/* border-top: 4px solid white; */
-}
-
-nav > ul {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 0;
 }
 
-nav > ul > li {
+nav > a {
+	display: block;
 	font-family: "valentineStyle", Impact;
 	font-size: 36px;
-	list-style-type: none;
-	border-right: 4px solid white;
-	/* border: 4px solid white; */
-	padding-right: 54px;
+	padding: 25px;
+	border: 1px solid white;
+	background-color: #F25D5D;
 }
+
+
 
 footer {
 	background-color: #00A676;
