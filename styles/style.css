@@ -130,3 +130,9 @@ footer {
 img[src="images/user-image.png"] {
 	margin-top: 3px;
 }
+
+#skull-straw {
+	position: relative;
+	top: 9px;
+	right: 5px;
+}
