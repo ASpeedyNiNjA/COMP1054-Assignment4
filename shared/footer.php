@@ -12,7 +12,7 @@
 		<div id="company">
 			<p>DemonsLoveCompany
 			<br>
-			Ministry Of Love</p>
+			Ministry Of Love&hearts;</p>
 		</div>
 	</footer>
 </body>

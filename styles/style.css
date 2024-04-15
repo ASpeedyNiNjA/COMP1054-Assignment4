@@ -68,7 +68,7 @@ h2 {
 
 nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -244,4 +244,9 @@ td {
 	font-size: 27px;
 	text-align: center;
 	border: solid 2px #7B5DF2
+}
+
+.index {
+align-content: center;
+text-align: center;
 }
