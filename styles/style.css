@@ -185,6 +185,11 @@ button {
 	text-align: center;
 }
 
+input {
+	background-color: #FFBFDA;
+	border: 5px solid #F25D5D;
+}
+
 
 
 
