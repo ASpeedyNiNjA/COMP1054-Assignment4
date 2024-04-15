@@ -107,7 +107,15 @@ a:active {
 	background-color: #dd191d;
 }
 
-
+#new-record {
+	display: inline-block;
+	background-color: rgb(136 108 248 / .93);
+	border: 5px solid #7B5DF2;
+	font-family: 'elmoraClassica';
+	font-size: 36px;
+	color: white;
+	margin: 5px 0px;
+}
 
 
 footer {
@@ -183,7 +191,34 @@ button {
 	width: 152px;
 	/* height: 39px; */ /* This fixs the text sitting at the bottom of the button */
 	text-align: center;
+	margin-top: 5px;
 }
+
+button:hover {
+	color: black;
+	background-color: #FFFC4C;
+	border: 5px solid #FFC04C;
+}
+
+button:active {
+	color: black;
+	background-color: #FFC04C;
+	border: 5px solid #FFFC4C;
+}
+
+#new-record:hover {
+	color: black;
+	background-color: #FFFC4C;
+	border: 5px solid #FFC04C;
+}
+
+#new-record:active {
+	color: black;
+	background-color: #FFC04C;
+	border: 5px solid #FFFC4C;
+}
+
+
 
 input {
 	background-color: #FFBFDA;
@@ -208,4 +243,5 @@ td {
 	font-family: 'arcadeClassic';
 	font-size: 27px;
 	text-align: center;
+	border: solid 2px #7B5DF2
 }

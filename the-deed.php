@@ -68,7 +68,7 @@
 	$db = null;
 	?>
 
-<a href="crown.php">Add New Record</a>
+<a href="crown.php" id="new-record">Add New Record</a>
 
 <!-- PHP Global Footer -->
 <?php include('shared/footer.php');?>
