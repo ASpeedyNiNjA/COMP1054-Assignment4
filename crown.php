@@ -7,7 +7,7 @@
 	<h2>Fucking Forms</h2> <!-- This has a double meaning -->
 	<form method="post" action="dirty-upload.php" enctype="multipart/form-data">
 		<fieldset>
-			<legend>The Dirt</legend>
+			<legend>The Crown </legend>
 
 				<!-- Main Form -->
 				<ul>

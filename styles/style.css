@@ -57,6 +57,7 @@ h1 {
 
 h2 {
 	font-family: "loveCha";
+	font-size: 36px;
 	font-weight: normal;
 }
 
@@ -113,6 +114,7 @@ footer {
 	grid-template-areas: 
 		"language copyright company";
 	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
 }
 
 #language {
@@ -135,4 +137,24 @@ img[src="images/user-image.png"] {
 	position: relative;
 	top: 9px;
 	right: 5px;
+}
+
+
+/* Font Family Form Inherting Code from Mozilla */
+/* button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+} */
+/* https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms */
+
+
+legend {
+	font-family: "loveCha";
+}
+
+form {
+	background-color: rgb(255 191 218/.26);
 }
