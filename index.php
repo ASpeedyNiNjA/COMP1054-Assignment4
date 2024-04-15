@@ -8,7 +8,7 @@ include('shared/header.php');
 <main class="index">
 	<h2>Palace Page</h2>
 	<p>The secret module</p>
-	<a href="crown.php" id="new-record">You've already entered</a>
+	<a href="the-deed.php" id="new-record">You've already entered</a>
 </main>
 
 <aside class="index">
