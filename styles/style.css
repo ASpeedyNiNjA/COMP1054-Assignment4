@@ -175,6 +175,18 @@ li {
 }
 
 button {
-	background-color: #F25D5D;
-	border: 5px solid #FFBFDA;
+	background-color: rgb(136 108 248 / .93);
+	border: 5px solid #7B5DF2;
+	font-family: 'elmoraClassica';
+	font-size: 36px;
+	color: white;
+	width: 152px;
+	/* height: 39px; */ /* This fixs the text sitting at the bottom of the button */
+	text-align: center;
 }
+
+
+
+
+/* background-color: #F25D5D;
+border: 5px solid #FFBFDA; */
