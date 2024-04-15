@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Chris Trombly ~ 100051457">
-	<meta name="description" content="Assignment 2 ~ COMP1006">
+	<meta name="description" content="Final Project ~ COMP1054">
 	<meta name="robots" content="noindex, nofollow">
 	<title> <?= $title; ?></title>
 	<link rel="icon" href="images/skull-straw.png" type="image/x-icon" />

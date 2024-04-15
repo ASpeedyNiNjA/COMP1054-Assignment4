@@ -1,3 +1,5 @@
+/* Custom Font Imports */
+
 @font-face {
 	font-family: "kingThings";
 	src: url("../fonts/kingThings.ttf");
@@ -29,19 +31,6 @@
 }
 
 
-
-table {
-	border: 1px solid;
-}
-
-td {
-	border: 0.5px dashed;
-}
-
-.thumbnail {
-	height: 250px;
-}
-
 header {
 	background-color: #F25D5D;
 	list-style-type: none;
@@ -51,6 +40,8 @@ header {
 	gap:5px;
 	border-bottom: 4px solid white;
 }
+
+/* Heading Element Styles */
 
 h1 {
 	font-family: "valentineStyle", Impact;
@@ -66,6 +57,8 @@ h2 {
 	font-weight: normal;
 }
 
+/* Navbar Styling */
+
 nav {
 	display: flex;
 	justify-content: center;
@@ -80,6 +73,8 @@ nav > a {
 	border: 1px solid white;
 	background-color: #F25D5D;
 }
+
+/* Anchor Styling */
 
 a {
 	outline-color: transparent;
@@ -107,6 +102,14 @@ a:active {
 	background-color: #dd191d;
 }
 
+/* Uploaded image resize */
+
+.thumbnail {
+	height: 250px;
+}
+
+/* Anchor element in the-deed.php styled similar to crown.php */
+
 #new-record {
 	display: inline-block;
 	background-color: rgb(136 108 248 / .93);
@@ -117,6 +120,7 @@ a:active {
 	margin: 5px 0px;
 }
 
+/* Footer styling with CSS Grid Template Areas */
 
 footer {
 	background-color: black;
@@ -152,17 +156,7 @@ img[src="images/user-image.png"] {
 	right: 5px;
 }
 
-
-/* Font Family Form Inherting Code from Mozilla */
-/* button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-} */
-/* https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms */
-
+/* Form Styling */
 
 legend {
 	font-family: "loveCha";
@@ -182,6 +176,11 @@ li {
 	list-style-type: none;
 }
 
+input {
+	background-color: #FFBFDA;
+	border: 5px solid #F25D5D;
+}
+
 button {
 	background-color: rgb(136 108 248 / .93);
 	border: 5px solid #7B5DF2;
@@ -193,6 +192,8 @@ button {
 	text-align: center;
 	margin-top: 5px;
 }
+
+/* Button + the-deed.php anchor pseudo styles */
 
 button:hover {
 	color: black;
@@ -218,12 +219,7 @@ button:active {
 	border: 5px solid #FFFC4C;
 }
 
-
-
-input {
-	background-color: #FFBFDA;
-	border: 5px solid #F25D5D;
-}
+/* Table Styling */
 
 table {
 	border-collapse: collapse;
