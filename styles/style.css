@@ -190,8 +190,22 @@ input {
 	border: 5px solid #F25D5D;
 }
 
+table {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: rgb(136 108 248 / .41);
+	border: 11px solid #7B5DF2;
+	border-left: 35px solid #7B5DF2;
+}
 
+th {
+	font-family: 'p5Hatty';
+	font-size: 36px;
+	font-weight: normal;
+}
 
-
-/* background-color: #F25D5D;
-border: 5px solid #FFBFDA; */
+td {
+	font-family: 'arcadeClassic';
+	font-size: 27px;
+	text-align: center;
+}

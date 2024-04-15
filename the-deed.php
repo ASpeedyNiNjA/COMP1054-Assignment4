@@ -24,7 +24,7 @@
 	}
 
 	// Start the table
-	echo '<h2>Crown Log</h2>';
+	echo '<h2 id="vertical">Crown Log</h2>';
 	echo '<table><thead> <th>activityID</th> <th>Date</th> <th>Start</th> <th>End</th> <th>Participants</th> <th>Category</th>';
 	if (session_status() == PHP_SESSION_NONE) {
 		session_start();
