@@ -19,6 +19,11 @@
 }
 
 @font-face {
+	font-family: "elmoraClassica";
+	src: url("../fonts/elmoraClassica.otf");
+}
+
+@font-face {
 	font-family: "arcadeClassic";
 	src: url("../fonts/arcadeClassic.TTF");
 }
@@ -157,4 +162,19 @@ legend {
 
 form {
 	background-color: rgb(255 191 218/.26);
+	font-family: 'elmoraClassica';
+	font-size: 36px;
+}
+
+fieldset {
+	border: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+button {
+	background-color: #F25D5D;
+	border: 5px solid #FFBFDA;
 }

@@ -98,7 +98,7 @@
 					
 					<li>
 						<!-- Button Widget -->
-						<button type="submit">Crown</button>
+						<button type="submit">Submit</button>
 					</li>
 
 		</fieldset>
